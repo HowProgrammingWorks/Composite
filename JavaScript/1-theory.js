@@ -29,12 +29,12 @@ class Collection extends AbstractProduct {
   constructor(name, ...products) {
     super();
     this.name = name;
-    this.collection = new Set(products);
+    this.set = new Set(products);
   }
 
   get price() {
     let price = 0;
-    for (const item of this.collection) {
+    for (const item of this.set) {
       price += item.price;
     }
     return price;
