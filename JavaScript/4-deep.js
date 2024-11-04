@@ -12,12 +12,12 @@ const purchase = [
   {
     Electronics: {
       Computers: [
-        { name: 'Laptop',  price: 1500 },
+        { name: 'Laptop', price: 1500 },
         { name: 'Desktop', price: 1200 },
       ],
       Accessories: [
-        { name: 'Mouse',  price: 25 },
-        { name: 'Keyboard',  price: 100 },
+        { name: 'Mouse', price: 25 },
+        { name: 'Keyboard', price: 100 },
         { name: 'Webcam', price: 50 },
         [
           { name: 'HDMI cable', price: 10 },
