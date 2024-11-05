@@ -13,6 +13,7 @@ class Product {
     return this.productPrice;
   }
 }
+
 class Collection {
   name;
   collection;
